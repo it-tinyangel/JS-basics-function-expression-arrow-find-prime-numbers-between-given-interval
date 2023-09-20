@@ -28,7 +28,7 @@ const simpleNumber = () => {
 
 	let primeNumbersString = ''; // to store prime numbers as a string
 
-	for (let i = start; i <= end; i++) { // iteration within an interval
+	for (let i = start; i <= end; i++) { // iteration within in interval
 		if (primeNumber(i)) {
 			if (primeNumbersString !== '') {
 				primeNumbersString += ', '; // adding a comma if it's not first number
