@@ -31,7 +31,7 @@ const simpleNumber = () => {
 	for (let i = start + 1; i < end; i++) { // iteration within in interval, not inclusive
 		if (primeNumber(i)) {
 			if (primeNumbersString !== '') {
-				primeNumbersString += ', '; // adding a comma if it's not first number
+				primeNumbersString += ', '; // adding a comma if it's not 1st number
 			}
 			primeNumbersString += i; // adding a prime number to the string
 		}
